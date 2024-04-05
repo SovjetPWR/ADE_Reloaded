@@ -1,0 +1,11 @@
+adeVarGasamountInLiter = 1800;	
+adeVarCylinderVolume = 6;
+adeVarCylinderPressure = 300;
+adeVarPercentO2 = 0.1;
+adeVarPercentN2 = 0.2;
+adeVarPercentHe = 0.7;
+adeVarDiverWithoutGas = 0;
+player removeItem "ade_item_cylinder_single_6ltr_300bar_Tx1070";
+playSound "ade_sound_zischen";
+hint "Filled rebreather using single 6l cylinder, filled with 300bar of Tx 10/70.";
+player addItem "ade_item_cylinder_single_6ltr_empty";
