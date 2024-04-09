@@ -13,3 +13,5 @@
 #ifdef DEBUG_SETTINGS_main
 	#define DEBUG_SETTINGS DEBUG_SETTINGS_TRIPOD
 #endif
+
+#include "\z\ace\addons\main\script_macros.hpp"
