@@ -10,22 +10,21 @@
 //Base Classes//
 ////////////////
 
-class Tauchcomputer_RscText
-{
-    access = 0;
-    idc = -1;
-    type = CT_STATIC;
-    style = ST_LEFT;
-    linespacing = 1;
-    colorBackground[] = {0,0,0,0};
-    colorText[] = {0.3,0.6,0.4,.8};
-    text = "";
-    shadow = 2;
-    font = "EtelkaNarrowMediumPro";
-    SizeEx = 0.1;
-    fixedWidth = 0;
-    x = 0;
-    y = 0;
-    h = 0;
-    w = 0; 
+class Tauchcomputer_RscText {
+	access = 0;
+	idc = -1;
+	type = CT_STATIC;
+	style = ST_LEFT;
+	linespacing = 1;
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {0.3,0.6,0.4,.8};
+	text = "";
+	shadow = 2;
+	font = "EtelkaNarrowMediumPro";
+	SizeEx = 0.1;
+	fixedWidth = 0;
+	x = 0;
+	y = 0;
+	h = 0;
+	w = 0;
 };
