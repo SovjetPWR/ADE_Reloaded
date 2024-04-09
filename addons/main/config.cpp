@@ -121,7 +121,7 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		picture = "\ade_core\data\icons\ade_icon_DiveComputer.paa";
+		picture = QPATHTOF(data\icons\ade_icon_DiveComputer.paa);
 		displayName = "Dive computer";
 		descriptionShort = "Wrist mounted, battery powered dive computer. Shows important data to the diver.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -135,8 +135,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (compressed air)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of compressed, dried and filtered air.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -149,8 +149,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (compressed air)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of compressed, dried and filtered air.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -163,8 +163,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (EAN28)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Enriched Air Nitrox 28.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -177,8 +177,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (EAN28)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Enriched Air Nitrox 28.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -191,8 +191,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (EAN32)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Enriched Air Nitrox 32.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -205,8 +205,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (EAN32)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Enriched Air Nitrox 32.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -219,8 +219,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (EAN36)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Enriched Air Nitrox 36.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -233,8 +233,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (EAN36)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Enriched Air Nitrox 36.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -247,8 +247,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (EAN40)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Enriched Air Nitrox 40.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -261,8 +261,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (EAN40)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Enriched Air Nitrox 40.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -275,8 +275,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (Heliox 8.5)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Heliox 8.5.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -289,8 +289,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (Heliox 8.5)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Heliox 8.5.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -303,8 +303,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (Heliox 12)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Heliox 12.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -317,8 +317,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (Heliox 12)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Heliox 12.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -331,8 +331,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (Heliox 21)";
 		descriptionShort  =  "Single 6l cylinder filled with 300bar of Heliox 21.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -345,8 +345,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (Heliox 21)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Heliox 21.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -359,8 +359,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (Tx21/35)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Tx21/35.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -373,8 +373,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (Tx21/35)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Tx21/35.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -387,8 +387,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (Tx18/45)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Tx18/45.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -401,8 +401,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (Tx18/45)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Tx18/45.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -415,8 +415,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (Tx15/55)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Tx15/55.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -429,8 +429,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (Tx15/55)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Tx15/55.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -443,8 +443,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (Tx12/65)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Tx12/65.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -457,8 +457,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (Tx12/65)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Tx12/65.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -471,8 +471,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (Tx10/70)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Tx10/70.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -485,8 +485,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (Tx10/70)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Tx10/70.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -499,8 +499,8 @@ class CfgWeapons {
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (empty)";
 		descriptionShort = "One empty 6 liter diving bottle.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -513,8 +513,8 @@ class CfgWeapons {
 		scope = 1;
 		scopeArsenal = 1;
 		scopeCurator = 1;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (empty)";
 		descriptionShort = "Two linked empty 6 liter diving bottles.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -527,8 +527,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\SingleBottle";
-		picture = "\ade_core\data\icons\ade_icon_SingleTank.paa";
+		model = QPATHTOF(data\models\SingleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_SingleTank.paa);
 		displayName = "Single 6l cylinder (pure oxygen)";
 		descriptionShort = "Single 6l cylinder filled with 300bar of Pure Oxygen.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -541,8 +541,8 @@ class CfgWeapons {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
-		model = "\ade_core\data\models\DoubleBottle";
-		picture = "\ade_core\data\icons\ade_icon_DoubleTank.paa";
+		model = QPATHTOF(data\models\DoubleBottle);
+		picture = QPATHTOF(data\icons\ade_icon_DoubleTank.paa);
 		displayName = "Twin 6l cylinders (pure oxygen)";
 		descriptionShort = "Twin 6l cylinders filled with 300bar of Pure Oxygen.";
 		class ItemInfo: InventoryItem_Base_F {
@@ -555,12 +555,12 @@ class CfgSounds {
 	sounds[] = {};
 	class ade_sound_zischen {
 		name = "Zischen";
-		sound[] = {"ade_core\data\sounds\zischen.ogg", 1, 1};
+		sound[] = {QPATHTOF(data\sounds\zischen.ogg), 1, 1};
 		titles[] = {};
 	};
 	class ade_sound_beep {
 		name = "Beep";
-		sound[] = {"ade_core\data\sounds\beep.ogg", 1, 1};
+		sound[] = {QPATHTOF(data\sounds\beep.ogg), 1, 1};
 		titles[] = {};
 	};
 };

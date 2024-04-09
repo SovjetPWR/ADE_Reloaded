@@ -26,7 +26,7 @@ class CfgWeapons {
 		author = "UKSF Mod Team";
 		displayName = "LAR-V Rebreather (Molle) (ADE)";
 		picture = "\A3\characters_f\Data\UI\icon_V_RebreatherB_CA.paa";
-		model = "DiveGear\Models\LARV_1.p3d";
+		model = QPATHTOF(Models\LARV_1.p3d);
 		hiddenUnderwaterSelections[] = {
 			"hide"
 		};
@@ -35,15 +35,15 @@ class CfgWeapons {
 			"unhide2"
 		};
 		hiddenUnderwaterSelectionsTextures[] = {
-			"\DiveGear\data\scuba_attachments_co.paa",
-			"\DiveGear\data\scuba_attachments_co.paa",
+			QPATHTOF(data\scuba_attachments_co.paa),
+			QPATHTOF(data\scuba_attachments_co.paa),
 			"\A3\characters_f\data\visors_ca.paa"
 		};
 		hiddenSelectionsTextures[] = {
 			"\A3\characters_f\common\data\diver_equip_nato_co.paa"
 		};
 		class ItemInfo: VestItem {
-			uniformModel = "DiveGear\Models\LARV_1.p3d";
+			uniformModel = QPATHTOF(Models\LARV_1.p3d);
 			containerClass = "Supply160";
 			vestType = "Rebreather";
 			mass = 40;
@@ -55,8 +55,8 @@ class CfgWeapons {
 				"unhide2"
 			};
 			hiddenUnderwaterSelectionsTextures[] = {
-				"\DiveGear\data\scuba_attachments_co.paa",
-				"\DiveGear\data\scuba_attachments_co.paa",
+				QPATHTOF(data\scuba_attachments_co.paa),
+				QPATHTOF(data\scuba_attachments_co.paa),
 				"\A3\characters_f\data\visors_ca.paa"
 			};
 			hiddenSelectionsTextures[] = {
@@ -90,7 +90,7 @@ class CfgWeapons {
 		author = "UKSF Mod Team";
 		displayName = "LAR-V Rebreather (ADE)";
 		picture = "\A3\characters_f\Data\UI\icon_V_RebreatherB_CA.paa";
-		model = "DiveGear\Models\LARV_2.p3d";
+		model = QPATHTOF(Models\LARV_2.p3d);
 		hiddenUnderwaterSelections[] = {
 			"hide"
 		};
@@ -99,15 +99,15 @@ class CfgWeapons {
 			"unhide2"
 		};
 		hiddenUnderwaterSelectionsTextures[] = {
-			"\DiveGear\data\scuba_attachments_co.paa",
-			"\DiveGear\data\scuba_attachments_co.paa",
+			QPATHTOF(data\scuba_attachments_co.paa),
+			QPATHTOF(data\scuba_attachments_co.paa),
 			"\A3\characters_f\data\visors_ca.paa"
 		};
 		hiddenSelectionsTextures[] = {
 			"\A3\characters_f\common\data\diver_equip_nato_co.paa"
 		};
 		class ItemInfo: VestItem {
-			uniformModel = "DiveGear\Models\LARV_2.p3d";
+			uniformModel = QPATHTOF(Models\LARV_2.p3d);
 			containerClass = "Supply160";
 			vestType = "Rebreather";
 			mass = 40;
@@ -119,8 +119,8 @@ class CfgWeapons {
 				"unhide2"
 			};
 			hiddenUnderwaterSelectionsTextures[] = {
-				"\DiveGear\data\scuba_attachments_co.paa",
-				"\DiveGear\data\scuba_attachments_co.paa",
+				QPATHTOF(data\scuba_attachments_co.paa),
+				QPATHTOF(data\scuba_attachments_co.paa),
 				"\A3\characters_f\data\visors_ca.paa"
 			};
 			hiddenSelectionsTextures[] = {
