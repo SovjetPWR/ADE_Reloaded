@@ -15,10 +15,10 @@ class Extended_PostInit_EventHandlers {
 };
 
 // Divecompuer overlay stuff
-#include "\ade_core\scripts\dialog\defines.hpp"
+#include "\z\ade_reloaded\addons\main\scripts\dialog\defines.hpp"
 
 class RscTitles {
-#include "\ade_core\scripts\dialog\Tauchcomputer.hpp"
+#include "\z\ade_reloaded\addons\main\scripts\dialog\Tauchcomputer.hpp"
 };
 // Diving goggles
 class CfgGlasses {
