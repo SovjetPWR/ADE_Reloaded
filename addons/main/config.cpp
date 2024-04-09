@@ -61,7 +61,7 @@ class CfgVehicles {
 		scope = 2;
 		model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Tortila";
 		displayName = "Diving Bag (ADE)";
-		descriptionShort = "Black backpack for transporting the divers equipment."
+		descriptionShort = "Black backpack for transporting the divers equipment.";
 		author = "[ADE]";
 		picture = "\A3\weapons_f\ammoboxes\bags\data\ui\icon_B_C_Tortila_blk.paa";
 		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_tortila_blk_co.paa"};
@@ -106,7 +106,7 @@ class CfgWeapons {
 		descriptionShort = "All weather wetsuit";
 		author = "[ADE]";
 		scope = 2;
-	}
+	};
 
 	class ade_ItemCore: ItemCore {
 		type = 131072;
