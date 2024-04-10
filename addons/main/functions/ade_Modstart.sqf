@@ -77,9 +77,9 @@ _adeVarDecoDiveTime = 0;
 
 
 //Add equipment
-_nullGear = [] execVM "ade_core\scripts\ade_EquipmentInit.sqf";
+_nullGear = [] execVM "\z\ade_reloaded\addons\main\functions\ade_EquipmentInit.sqf";
 //Start the check if player is in contact with water
-_nullGoggle = [] execVM "ade_core\scripts\ade_SurfaceCheck.sqf";
+_nullGoggle = [] execVM "\z\ade_reloaded\addons\main\functions\ade_SurfaceCheck.sqf";
 	//Start endless loop
     while {true} do {
 
@@ -281,7 +281,7 @@ _nullGoggle = [] execVM "ade_core\scripts\ade_SurfaceCheck.sqf";
 			//If counter reaches 0, start O2 toxic effects. Otherwise on 10				
 			if (_adeVarO2ToxicCounter == 0) then
 			{
-			_nullO = ["true", "true"] execVM "ade_core\scripts\effects\O2Toxic.sqf";			
+			_nullO = ["true", "true"] execVM "\z\ade_reloaded\addons\main\functions\effects\O2Toxic.sqf";			
 			_adeVarO2ToxicCounter = 2;
 			};
 
@@ -319,7 +319,7 @@ _nullGoggle = [] execVM "ade_core\scripts\ade_SurfaceCheck.sqf";
 			//If countdown on 0, start DCS effect	
 			if (_adeVarDecoToxicCounter == 0) then
 				{
-				_nullDeko = ["true", "true"] execVM "ade_core\scripts\effects\DCS.sqf";					
+				_nullDeko = ["true", "true"] execVM "\z\ade_reloaded\addons\main\functions\effects\DCS.sqf";					
 				_adeVarDecoToxicCounter = 2;
 				};
 		}
@@ -336,7 +336,7 @@ _nullGoggle = [] execVM "ade_core\scripts\ade_SurfaceCheck.sqf";
 			//If countdown reaches 0, start effect
 			if (_adeVarN2ToxicCounter == 0) then
 				{
-				_nullN = ["true", "true"] execVM "ade_core\scripts\effects\N2Toxic.sqf";					
+				_nullN = ["true", "true"] execVM "\z\ade_reloaded\addons\main\functions\effects\N2Toxic.sqf";					
 				_adeVarN2ToxicCounter = 2;
 				};					
 		}
