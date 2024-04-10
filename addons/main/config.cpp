@@ -14,12 +14,10 @@ class Extended_PostInit_EventHandlers {
 	ade_post_init = "ade_var_post_init_nil = [] execVM ""\ade_core\scripts\ade_Modstart.sqf""";
 };
 
-// Divecompuer overlay stuff
+// Divecomputer overlay stuff
 #include "\z\ade_reloaded\addons\main\scripts\dialog\defines.hpp"
-
-class RscTitles {
 #include "\z\ade_reloaded\addons\main\scripts\dialog\Tauchcomputer.hpp"
-};
+
 // Diving goggles
 class CfgGlasses {
 	class None;
