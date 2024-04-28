@@ -9,10 +9,8 @@ class CfgPatches {
 	};	
 };
 
-// Starting the script
-class Extended_PostInit_EventHandlers {
-	ade_post_init = "ade_var_post_init_nil = [] execVM ""\z\ade_reloaded\addons\main\functions\ade_Modstart.sqf""";
-};
+class CBA_Extended_EventHandlers_base;
+#include "CfgEventHandlers.hpp"
 
 // Divecomputer overlay stuff
 #include "Dialog.hpp"
