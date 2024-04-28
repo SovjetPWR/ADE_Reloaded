@@ -120,4 +120,4 @@ _use_ade_item_cylinder_single_6ltr_300bar_Tx2135 = ["use_ade_item_cylinder_singl
 [typeOf player, 1, ["ACE_SelfActions", "ACE_Equipment"], _use_ade_item_cylinder_single_6ltr_300bar_Tx2135] call ace_interact_menu_fnc_addActionToClass;
 
 //Tauchcomputer in Keybindoption und Standard auf F5
-["Advanced Diving Environment","adeVarDiveComputerVisible", "Toggle Dive Computer", {execVM "\z\ade_reloaded\addons\main\functions\ade_TauchcomputerAufrufen.sqf";}, {}, [0x3e, [true, false, false]]] call CBA_fnc_addKeybind;
+["Advanced Diving Environment","adeVarDiveComputerVisible", "Toggle Dive Computer", {execVM "\z\ade_reloaded\addons\main\functions\fnc_openDivecomputer.sqf";}, {}, [0x3e, [true, false, false]]] call CBA_fnc_addKeybind;
