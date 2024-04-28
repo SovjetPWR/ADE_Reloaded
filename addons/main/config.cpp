@@ -15,8 +15,8 @@ class Extended_PostInit_EventHandlers {
 };
 
 // Divecomputer overlay stuff
-#include "\z\ade_reloaded\addons\main\functions\dialog\defines.hpp"
-#include "\z\ade_reloaded\addons\main\functions\dialog\Tauchcomputer.hpp"
+#include "Dialog.hpp"
+#include "RscTitles.hpp"
 
 #include "CfgGlasses.hpp"
 #include "CfgVehicles.hpp"
