@@ -7,4 +7,4 @@ keys/*
 hemtt.toml
 *.pbo
 *.biprivatekey
-build*.bat
+
