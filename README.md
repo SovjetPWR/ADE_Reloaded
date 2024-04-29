@@ -15,7 +15,7 @@ To build your project, [install the HEMTT.exe](https://brettmayson.github.io/HEM
 
 Afterwards, you can create test/release builds via `build-test.bat` and `build-release.bat`, or development builds with `build-dev.bat` to allow file patching.
 
-### What is file patching? (explanation from [ACRE2](https://acre2.idi-systems.com/wiki/development/building#file-patching))
+### Dev Build File Patching (explanation from [ACRE2](https://acre2.idi-systems.com/wiki/development/building#file-patching))
 File Patching allows you to change the files in an addon while the game is running, requiring only a restart of the mission. This makes it great for debugging, as it cuts down the time required between tests.
 
 To run Arma 3 with file patching add the `-filePatching` startup parameter.
