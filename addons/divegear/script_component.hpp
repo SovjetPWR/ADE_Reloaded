@@ -6,12 +6,12 @@
 // #define DISABLE_COMPILE_CACHE
 // #define ENABLE_PERFORMANCE_COUNTERS
 
-#ifdef DEBUG_ENABLED_FCS
+#ifdef DEBUG_ENABLED_DIVEGEAR
     #define DEBUG_MODE_FULL
 #endif
 
-#ifdef DEBUG_SETTINGS_FCS
-    #define DEBUG_SETTINGS DEBUG_SETTINGS_FCS
+#ifdef DEBUG_SETTINGS_DIVEGEAR
+    #define DEBUG_SETTINGS DEBUG_SETTINGS_DIVEGEAR
 #endif
 
 #include "\z\ace\addons\main\script_macros.hpp"
