@@ -6,7 +6,7 @@ class CfgPatches {
 		weapons[] = {""};
 		requiredVersion = 1.0;
 		requiredAddons[] = {"Extended_EventHandlers","ace_common"};
-	};	
+	};
 };
 
 class CBA_Extended_EventHandlers_base;
