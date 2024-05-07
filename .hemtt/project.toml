@@ -1,0 +1,16 @@
+name = "[A.D.E.] Advanced Diving Environment Reloaded"
+mainprefix = "z"
+prefix = "ade_reloaded"
+author = "Brigata Lancieri"
+
+[files]
+include = [
+	"mod.cpp",
+	"meta.cpp",
+	"README.md",
+	"LICENSE",
+	"ade_icon_DiveComputer.paa",
+]
+
+[version]
+git_hash = 0

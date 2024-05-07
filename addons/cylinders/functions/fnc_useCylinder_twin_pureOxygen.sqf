@@ -1,0 +1,11 @@
+adeVarGasamountInLiter = 3600;	
+adeVarCylinderVolume = 12;
+adeVarCylinderPressure = 300;
+adeVarPercentO2 = 1;
+adeVarPercentN2 = 0;
+adeVarPercentHe = 00;
+adeVarDiverWithoutGas = 0;
+player removeItem "ade_item_cylinder_twin_6ltr_300bar_pureOxygen";
+playSound "ade_sound_zischen";
+hint "Filled rebreather using linked 6l cylinders, filled with 300bar of pure oxygen.";
+player addItem "ade_item_cylinder_linked_6ltr_empty";
